@@ -1,0 +1,42 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Signal",
+		"_postman_id": "1af5ad7c-4006-4efa-9327-71cfa36f0e3a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Signal",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Signal-post",
+			"request": {
+				"url": "http://localhost:5000/Signal/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Message\":\"Hello from postman aaaa 213 !!!\"\n}"
+				},
+				"description": "opis"
+			},
+			"response": []
+		}
+	]
+}
