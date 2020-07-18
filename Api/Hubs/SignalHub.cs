@@ -17,11 +17,11 @@ namespace Api.Hubs
         }
 
         
-        //public Task SendHello(string hello)
-        //{
-        //    _logger.LogInformation(hello);
-        //    return Task.CompletedTask;
-        //}
+        public Task SendMessage(string message)
+        {
+           _logger.LogInformation(message);
+           return Task.CompletedTask;
+        }
 
         //public Task SendMessageToAll(string message)
         //{
